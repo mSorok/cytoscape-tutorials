@@ -1,35 +1,89 @@
 <section>
-    <h3> Metabolic network analysis </h3>
-    <ul style="width:44%">
-        <li>Different types of metabolic networks</li>
-        <li>Finding metabolic networks</li>
-        <li>Pathway finding</li>
-        <li>Metabolic hubs</li>
-        <li>Mapping data on the network</li>
-    </ul>
+    <h1>Metabolic network analysis</h1>
+    
+    
+    <ol type="A">
+        <li><a href="modules/msorok_metabolic_network_analysis/index.html#/metabo-types">Different types of metabolic networks</a></li>
+        <li><a href="modules/msorok_metabolic_network_analysis/index.html#/find-metabo">Finding metabolic networks</a></li>
+        <li><a href="modules/msorok_metabolic_network_analysis/index.html#/path-finding">Finding pathways in metabolic networks</a></li>
+        <li><a href="modules/msorok_metabolic_network_analysis/index.html#/metabolic-hubs">Metabolic hubs</a></li>
+        <li><a href="modules/msorok_metabolic_network_analysis/index.html#/data-mapping">Mapping data on the network</a></li>
+        
+    </ol>
 </section>
 
 <section id="metabo-types">
-    <h2>Different types of metabolic networks</h2>
+    <h1>Different types of metabolic networks</h2>
+    
+    <highlight>There are different types of metabolic networks</highlight> <br />
+    <em class="fragment">You need to define first the problem that you want to answer with the network!</em><br />
+    <em class="fragment">We'll describe the most popular ones</em><br />
+
 
 </section>
 
 <section>
-    <h2>Finding metabolic networks</h2>
+    <a href="modules/msorok_metabolic_network_analysis/index.html#/bipartite-netw"><ribbon>Bipartite network of metabolites and reactions</ribbon></a>
+    <a href="modules/msorok_metabolic_network_analysis/index.html#/metabolite-netw"><ribbon>Metabolite network</ribbon></a>
+    <a href="modules/msorok_metabolic_network_analysis/index.html#/reaction-netw"><ribbon>Reaction network</ribbon></a>
+    
+
 </section>
 
-<section>
-    <h2>Pathway finding</h2>
+<section id="bipartite-netw">
+    <h1>Bipartite network of metabolites and reactions</h1>
+    <em class="fragment">Where nodes are metabolites <i>and</i> reactions</em><br />
+    <em class="fragment"><img style="width: 50%; height: 50%" src="modules/msorok_metabolic_network_analysis/bipartite_network.png"></em><br />
     
 </section>
 
-<section>
+<section id="metabolite-netw">
+    <h1>Metabolite network</h1>
+    <em class="fragment">Nodes represent metabolites</em><br />
+    <em class="fragment">Edge between two nodes if there is a reaction where one of the metabolites is the substrate and the other is the product</em><br />
+    <em class="fragment"><img style="width: 50%; height: 50%" src="modules/msorok_metabolic_network_analysis/metabolite_network.png"></em><br />
+</section>
+
+
+<section id="reaction-netw">
+    
+    <h1>Reaction network</h1>
+    
+    <div class="column">
+
+        <ul>
+            <li><em class="fragment">Nodes represent reactions</em></li>
+            <li><em class="fragment">Edge between two nodes if there is a metabolite produced by a reaction substrate of the other reaction</em></li>
+
+        </ul>
+    </div>
+    <div class="column">
+        <em class="fragment"><img style="width: 50%; height: 50%" src="modules/msorok_metabolic_network_analysis/reaction_network.png"></em>
+        
+    </div>
+    
+</section>
+
+
+
+<section id="find-metabo">
+    <h2>Finding metabolic networks</h2>
+    
+    
+</section>
+
+<section id="path-finding">
+    <h2>Finding pathways in metabolic networks</h2>
+    
+</section>
+
+<section id="metabolic-hubs">
     <h2>Metabolic hubs</h2>
     
 </section>
 
 
-<section>
+<section id="data-mapping">
     <h2>Mapping data on the network</h2>
     
 </section>
